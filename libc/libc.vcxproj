@@ -239,7 +239,7 @@
     <ClCompile Include="win32\unistd\write.c" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="win32\x64\unistd\_syscall.asm">
+    <MASM Include="win32\x64\unistd\__syscall.asm">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(PlatformTarget) != x64</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(PlatformTarget) != x64</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(PlatformTarget) != x64</ExcludedFromBuild>

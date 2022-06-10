@@ -82,7 +82,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="win32\x64\unistd\_syscall.asm">
+    <MASM Include="win32\x64\unistd\__syscall.asm">
       <Filter>Source Files\win32\x64\unistd</Filter>
     </MASM>
   </ItemGroup>

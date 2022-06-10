@@ -4,7 +4,7 @@ OPTION PROLOGUE: NONE
 
 .code
 
-_syscall PROC PUBLIC
+__syscall PROC PUBLIC
 	push rbp
 	mov rbp, rsp
 
@@ -24,6 +24,6 @@ _syscall PROC PUBLIC
 
 	leave
 	ret
-_syscall ENDP
+__syscall ENDP
 
 END
