@@ -1,0 +1,3 @@
+[submodule "deps/processhacker"]
+	path = deps/processhacker
+	url = https://github.com/processhacker/processhacker.git
