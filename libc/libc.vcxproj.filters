@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\things">
+      <UniqueIdentifier>{d59339b3-711d-4b29-878e-7fcc84694df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stdlib">
+      <UniqueIdentifier>{a55c36de-d31d-49bc-88ca-c89702668a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\startup">
+      <UniqueIdentifier>{1d94b268-82a3-4baa-a87b-963e3e7af430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\string">
+      <UniqueIdentifier>{5308a0d3-baa3-49ac-94f1-41824f587455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\startup">
+      <UniqueIdentifier>{d7475495-edf9-4d13-9394-3eabf65ffe6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win32">
+      <UniqueIdentifier>{52daaa16-092c-4faf-b5a7-cb3fb86766e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win32\startup">
+      <UniqueIdentifier>{e567aea5-317b-4ea0-b725-81fd9dd16e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win32\unistd">
+      <UniqueIdentifier>{d7351de6-5aa8-4054-8782-b89de57cf2aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win32\x64">
+      <UniqueIdentifier>{a91c5249-798a-4064-ab0c-1e19c1a66759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win32\x64\unistd">
+      <UniqueIdentifier>{182b83fc-010a-4316-b94f-409e267ab608}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unistd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="things\defs.h">
+      <Filter>Header Files\things</Filter>
+    </ClInclude>
+    <ClInclude Include="startup\startup.h">
+      <Filter>Header Files\startup</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="startup\init.c">
+      <Filter>Source Files\startup</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\startup\dll.c">
+      <Filter>Source Files\win32\startup</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strlen.c">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\malloc.c">
+      <Filter>Source Files\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\unistd\write.c">
+      <Filter>Source Files\win32\unistd</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\unistd\syscall.c">
+      <Filter>Source Files\win32\unistd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="win32\x64\unistd\_syscall.asm">
+      <Filter>Source Files\win32\x64\unistd</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

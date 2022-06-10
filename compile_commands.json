@@ -1,0 +1,164 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-fPIC",
+      "-D_LIBC_BUILD",
+      "-Ilibc",
+      "-c",
+      "-o",
+      "/stuff/libc/bin-int/linux-x64/libc/linux/x64/startup/crt0.S.o",
+      "libc/linux/x64/startup/crt0.S"
+    ],
+    "directory": "/stuff/libc",
+    "file": "/stuff/libc/libc/linux/x64/startup/crt0.S",
+    "output": "/stuff/libc/bin-int/linux-x64/libc/linux/x64/startup/crt0.S.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-ffreestanding",
+      "-fPIC",
+      "-D_LIBC_BUILD",
+      "-Ilibc",
+      "-c",
+      "-o",
+      "/stuff/libc/bin-int/linux-x64/libc/linux/startup/startup.c.o",
+      "libc/linux/startup/startup.c"
+    ],
+    "directory": "/stuff/libc",
+    "file": "/stuff/libc/libc/linux/startup/startup.c",
+    "output": "/stuff/libc/bin-int/linux-x64/libc/linux/startup/startup.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-ffreestanding",
+      "-fPIC",
+      "-D_LIBC_BUILD",
+      "-Ilibc",
+      "-c",
+      "-o",
+      "/stuff/libc/bin-int/linux-x64/libc/startup/startup.c.o",
+      "libc/startup/startup.c"
+    ],
+    "directory": "/stuff/libc",
+    "file": "/stuff/libc/libc/startup/startup.c",
+    "output": "/stuff/libc/bin-int/linux-x64/libc/startup/startup.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-fPIC",
+      "-D_LIBC_BUILD",
+      "-Ilibc",
+      "-c",
+      "-o",
+      "/stuff/libc/bin-int/linux-x64/libc/linux/x64/unistd/syscall.S.o",
+      "libc/linux/x64/unistd/syscall.S"
+    ],
+    "directory": "/stuff/libc",
+    "file": "/stuff/libc/libc/linux/x64/unistd/syscall.S",
+    "output": "/stuff/libc/bin-int/linux-x64/libc/linux/x64/unistd/syscall.S.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-ffreestanding",
+      "-fPIC",
+      "-D_LIBC_BUILD",
+      "-Ilibc",
+      "-c",
+      "-o",
+      "/stuff/libc/bin-int/linux-x64/libc/linux/unistd/write.c.o",
+      "libc/linux/unistd/write.c"
+    ],
+    "directory": "/stuff/libc",
+    "file": "/stuff/libc/libc/linux/unistd/write.c",
+    "output": "/stuff/libc/bin-int/linux-x64/libc/linux/unistd/write.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-ffreestanding",
+      "-fPIC",
+      "-D_LIBC_BUILD",
+      "-Ilibc",
+      "-c",
+      "-o",
+      "/stuff/libc/bin-int/linux-x64/libc/startup/init.c.o",
+      "libc/startup/init.c"
+    ],
+    "directory": "/stuff/libc",
+    "file": "/stuff/libc/libc/startup/init.c",
+    "output": "/stuff/libc/bin-int/linux-x64/libc/startup/init.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-ffreestanding",
+      "-fPIC",
+      "-D_LIBC_BUILD",
+      "-Ilibc",
+      "-c",
+      "-o",
+      "/stuff/libc/bin-int/linux-x64/libc/string/strlen.c.o",
+      "libc/string/strlen.c"
+    ],
+    "directory": "/stuff/libc",
+    "file": "/stuff/libc/libc/string/strlen.c",
+    "output": "/stuff/libc/bin-int/linux-x64/libc/string/strlen.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-ffreestanding",
+      "-fPIC",
+      "-D_LIBC_BUILD",
+      "-Ilibc",
+      "-c",
+      "-o",
+      "/stuff/libc/bin-int/linux-x64/test/main.c.o",
+      "test/main.c"
+    ],
+    "directory": "/stuff/libc",
+    "file": "/stuff/libc/test/main.c",
+    "output": "/stuff/libc/bin-int/linux-x64/test/main.c.o"
+  }
+]
